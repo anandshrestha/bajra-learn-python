@@ -6,17 +6,17 @@ print("simple_interest: ", simple_interest)"""
 
 x= int(input("Enter a number "))
 y=int(input("Enter another number: "))
-value=input("Enter character to perform mathmetical calculation: a,b,c,d: ")
+value=input("Enter character to perform mathmematical calculation: a,b,c,d: ")
 if value=='a':
-    value=(x+y);
+    value=(x+y)
     print(value)
 elif value=='b':
-    value=(x-y);
+    value=(x-y)
     print(value)
 elif value=='c':
-    value=(x/y);
+    value=(x/y)
     print(value)
 else:
-   value=x*y;
+   value=x*y
    print(value)
     
